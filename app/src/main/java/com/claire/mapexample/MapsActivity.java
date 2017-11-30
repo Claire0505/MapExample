@@ -118,6 +118,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 //                .title("101")
 //                .snippet("這是台北101")); //顯示資訊視窗 Info Window
 
+
         //第二個方式是不需要點擊
 //        Marker marker = mMap.addMarker(new MarkerOptions()
 //                .position(place)
@@ -126,7 +127,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 //                .snippet("這是台北101")); //顯示資訊視窗 Info Window
 //        marker.showInfoWindow();
 
-        //第三種方式自訂畫面
+
+        //第三種方式自訂畫面 info_window.xml layout
         Marker marker = mMap.addMarker(new MarkerOptions()
                 .position(place)
                 .title("101")
